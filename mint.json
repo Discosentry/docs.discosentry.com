@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Discosentry",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,54 +18,41 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.gg/zqyvgr3QuF"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://discosentry.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "SDK (nodejs)",
+      "url": "sdknodejs"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Dashboard",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://discosentry.com/dashboard"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Support",
+      "icon": "discord",
+      "url": "https://discord.gg/zqyvgr3QuF"
     },
     {
-      "name": "Blog",
+      "name": "Github",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://github.com/Discosentry"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "introduction"
       ]
     },
     {
